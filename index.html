@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
-		<title>Document</title>
-	</head>
-	<body>
-		<audio src="audio/main theme.mp3" autoplay controls loop></audio>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="alert"></h1>
+    <h1 class="result"></h1>
+    <div id="startGame" class="start">START</div>
+    <div id="restart" class="start displayNone">RESTART</div>
 
-		<!-- <div class="doni">
-        <h1>Doni jump</h1>
-    </div> -->
+    <div id="gameField" class="game displayNone">
+      <div class="dino"></div>
+      <div class="distance">
+        <span>Your money:</span>
+        <span class="score">0</span>
+        <span class="score">$</span>
+      </div>
+    </div>
 
-		<div class="game">
-			<div id="dino"></div>
-			<div id="cactus"></div>
-		</div>
-
-		<script src="script.js"></script>
-	</body>
+    <script src="script.js"></script>
+  </body>
 </html>
