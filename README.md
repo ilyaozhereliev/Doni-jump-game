@@ -4,7 +4,7 @@
 
 ***
 
-## 🌐 You can try it here <a href="https://doni-jump-game.vercel.app/" target="_blank"/>here</a>
+## 🌐 You can try a demo <a href="https://doni-jump-game.vercel.app/" target="_blank"/>here</a>
 
 ***
 
